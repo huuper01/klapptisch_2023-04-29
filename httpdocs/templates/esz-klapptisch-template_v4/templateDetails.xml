@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="template" client="site">
+	<name>ESZ Klapptisch 4.0</name>
+	<version>1.0</version>
+	<creationDate>2023-05</creationDate>
+	<author>ajato GmbH</author>
+	<authorEmail>projekte@ajato.ch</authorEmail>
+	<copyright>(C) 2017 Open Source Matters, Inc.</copyright>
+	<description>TPL_KLAPPTISCH_XML_DESCRIPTION</description>
+	<inheritable>1</inheritable>
+	<files>
+		<filename>component.php</filename>
+		<filename>index.php</filename>
+		<filename>joomla.asset.json</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>html</folder>
+		<folder>css</folder>
+		<folder>img</folder>
+		<folder>js</folder>
+		<folder>php</folder>
+	</files>
+
+<positions>
+<position>logoPosition</position>
+<position>head</position>
+<position>menuLinks</position>
+<position>subMenu</position>
+<position>topMenuOben</position>
+<position>fusszeile</position>
+<position>newsDiv</position>
+<position>Inhalt</position>
+<position>newsDivTop</position>
+<position>newsDivMitte</position>
+<position>newsDivFusszeile</position>
+<position>newsDivKopfzeile</position>
+<position>team</position>
+<position>homeslide</position>
+</positions>
+  
+	<languages folder="language">
+		<language tag="de-DE">de-DE/tpl_klapptisch.ini</language>
+		<language tag="de-DE">de-DE/tpl_klapptisch.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field
+					name="logo"
+					type="radio"
+					label="Logo an / aus"
+					default="1"
+					layout="joomla.form.field.radio.switcher"
+					filter="boolean"
+					>
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+
+				<field
+					name="logoFile"
+					type="media"
+					default=""
+					label="Logo"
+					showon="brand:1"
+				/>
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" 
+"http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+
+<extension version="3.0" type="template" client="site">
+
+<name>esz-klapptisch-template_v1</name>	
+<creationDate>März 2016</creationDate>	
+<author>Duss/Emmenegger</author>	
+<authorEmail>projekt@ajato.ch</authorEmail>	
+<authorUrl>http://www.ajato.ch</authorUrl>	
+<copyright>Copyright by ajato GmbH. All rights reserved</copyright>	
+<license>GPU/GPL</license>
+	
+<version>1.1.0</version>
+	
+<description>ESZ-KLAPPTISCH-PAGE</description>
+	
+<files>		
+<folder>css</folder>		
+<folder>img</folder>
+<folder>js</folder>
+<folder>php</folder>
+<filename>index.php</filename>		
+<filename>templateDetails.xml</filename>		
+<filename>template_preview.png</filename>		
+<filename>template_thumbnail.png</filename>		
+</files>
+
+<positions>
+<position>logoPosition</position>
+<position>head</position>
+<position>menuLinks</position>
+<position>subMenu</position>
+<position>topMenuOben</position>
+<position>fusszeile</position>
+<position>newsDiv</position>
+<position>Inhalt</position>
+<position>newsDivTop</position>
+<position>newsDivMitte</position>
+<position>newsDivFusszeile</position>
+</positions>
+
+<config>
+</config>
+</extension>
+

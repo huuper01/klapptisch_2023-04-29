@@ -1,0 +1,11 @@
+/*
+.btn-default {
+    color: #000000;
+}
+a {
+    color: #000000;
+  	font-size: 18
+}*/
+div.page-header h1, h2 {
+display: none !important;
+}
